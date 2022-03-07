@@ -4,11 +4,10 @@ public class Lista {
 
     Nodo head = null;
     
-    int counter;
+    int counter = 0;
     
 
-    public Lista() {
-    }
+    public Lista() {}
 
     public Lista(Object o) {
         Nodo n = new Nodo(o);
